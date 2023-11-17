@@ -1,0 +1,10 @@
+'use strict'
+
+let num = 'abcdefgh';
+
+
+function getHypotenuse(a, b) {
+  return Math.sqrt(a ** 2 + b ** 2);
+}
+
+console.log(getHypotenuse(3, 4));
